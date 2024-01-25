@@ -125,3 +125,46 @@ nav li:hover .dropdown {
 .dropdown li a:hover {
     background-color: #f1f1f1;
 }
+
+/* Base styles here - optimized for mobile devices */
+
+/* Tablets */
+@media screen and (min-width: 600px) {
+    header nav ul {
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin-right: 30px;
+    }
+
+    .content {
+        max-width: 600px;
+    }
+}
+
+/* Desktops */
+@media screen and (min-width: 900px) {
+    header nav ul {
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin-right: 40px;
+    }
+
+    .content {
+        max-width: 900px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}

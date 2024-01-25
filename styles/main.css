@@ -67,3 +67,61 @@ img {
     display: block; /* Ensures it takes its own line */
     margin: 10px auto; /* Centers the image */
 }
+
+.clicked-photo {
+    border: 4px solid blue; /* Example style */
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme header, .dark-theme footer {
+    background-color: #1a1a1a;
+}
+
+.dark-theme nav a {
+    color: #fff;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
+
+/* Dropdown links */
+.dropdown li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: #f1f1f1;
+}

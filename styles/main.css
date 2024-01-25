@@ -52,3 +52,18 @@ footer {
     color: #fff;
 }
 
+/* Content Alignment */
+.content {
+    text-align: center;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+}
+
+/* Images styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures it takes its own line */
+    margin: 10px auto; /* Centers the image */
+}
